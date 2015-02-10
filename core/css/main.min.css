@@ -1,7 +1,7 @@
 /* special stuff
 mark gambardella, use with credit or whatver */
 /* don't use on every page */
-@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
 /* were using Roboto font, size 300 Light */
 html { 
     background-image: url(../img/mainbg.jpg);
