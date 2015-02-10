@@ -1,0 +1,20 @@
+/* special stuff
+mark gambardella, use with credit or whatver */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+/* were using Roboto font, size 300 Light */
+.showcase { 
+    background-image: url(../img/mainbg.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+
+.headline {
+    font-family: 'Roboto', sans-serif;
+    font-size: 700px;
+}
+
+.scaffold {
+    font-family: 'Roboto', sans-serif;
+    font-size: 200px;
+}
+        
