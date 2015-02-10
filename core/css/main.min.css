@@ -11,10 +11,12 @@ mark gambardella, use with credit or whatver */
 .headline {
     font-family: 'Roboto', sans-serif;
     font-size: 200px;
+    color: white;
 }
 
 .scaffold {
     font-family: 'Roboto', sans-serif;
     font-size: 75px;
+    color: white;
 }
         
