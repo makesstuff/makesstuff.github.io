@@ -1,9 +1,9 @@
 /* special stuff
 mark gambardella, use with credit or whatver */
-
+/* don't use on every page */
 @import url(http://fonts.googleapis.com/css?family=Roboto:300);
 /* were using Roboto font, size 300 Light */
-.showcase { 
+html { 
     background-image: url(../img/mainbg.jpg);
     font-family: 'Roboto', sans-serif;
 }
@@ -12,6 +12,7 @@ mark gambardella, use with credit or whatver */
     font-family: 'Roboto', sans-serif;
     font-size: 200px;
     color: white;
+    
 }
 
 .scaffold {
