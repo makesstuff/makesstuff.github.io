@@ -1,9 +1,11 @@
 /* special stuff
 mark gambardella, use with credit or whatver */
 /* don't use on every page */
+
 @import url(http://fonts.googleapis.com/css?family=Roboto:100);
 /* were using Roboto font, size 300 Light */
-html { 
+
+html {
     background-image: url(../img/mainbg.jpg);
     font-family: 'Roboto', sans-serif;
 }
@@ -12,9 +14,12 @@ html {
     font-family: 'Roboto', sans-serif;
     font-size: 100px;
     color: white;
-    vertical-align: -50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
     text-align: right;
-    
 }
 
 .scaffold {
@@ -24,4 +29,3 @@ html {
     vertical-align: middle;
     text-align: right;
 }
-        
