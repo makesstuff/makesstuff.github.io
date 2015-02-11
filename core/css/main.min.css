@@ -38,6 +38,14 @@ html {
     text-decoration: none;
 }
 
+.spotlight {
+    text-align: center;
+    color: #ecf0f1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 450%;
+    font-size: 450%;
+}
+
 .notfoundhead {
     font-family: 'Roboto', sans-serif;
     font-size: 100px;
@@ -73,6 +81,7 @@ html {
 }
 
 .rockholder {
-    background-image: url(../img/spotlight.jpg);
+    background-image: url(../img/spotcrop.jpg);
     min-height: 85px;
+    max-height: 90px;
 }
