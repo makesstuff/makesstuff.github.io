@@ -2,7 +2,7 @@
 mark gambardella, use with credit or whatver */
 /* don't use on every page */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100:300:400);
 /* were using Roboto font, size 300 Light */
 
 html {
@@ -48,4 +48,31 @@ html {
     margin-top: -100px;
     margin-left: -200px;
     text-align: center;
+}
+
+.navpills {
+    text-align: center;
+}
+
+.tupperware {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.left {
+    text-align: left
+}
+
+.right {
+    text-align: right
+}
+
+.deadmanloader {
+    font-size: 0%;
+}
+
+.rockholder {
+    background-image: url(../img/spotlight.jpg);
+    min-height: 85px;
 }
