@@ -6,6 +6,7 @@
         <!--css-->
         <link rel="stylesheet" href="core/css/main.min.css">
         <link rel="stylesheet" href="core/css/bootstrap.min.css">
+        <link href="core/js/bootstrap.min.js">
         <!--favicon-->
         <div class="rockholder">
             <h1 class="spotlight">mark gambardella</h1>
@@ -18,8 +19,34 @@
     <body>
         <div class="container">
             <div class="jumbotron">
-                <h1 class="spotlight">Barack Obama is my new bycicle.</h1>
-                <p class="lead">supporting text or whatevs</p>
+                <h1 class="spotlight">Hello!</h1>
+                <p class="lead">My name is Mark and I make stuff.</p>
+            </div>
+            <p class="lead">Examples of things I made:
+                <br> My friend Marshall Hoffmeister and I made a presentation on how to correctly set up Microsoft Outlook manually
+            </p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                Click here to see it!
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel">Setting up Outlook Manually</h4>
+                        </div>
+                        <div class="modal-body">
+                            <iframe src="https://docs.google.com/presentation/d/1MtqEkn0cBnelM1IDiWCSU496QtVVF6bOf-61ImTKrDM/embed?start=false&loop=false&delayms=5000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
