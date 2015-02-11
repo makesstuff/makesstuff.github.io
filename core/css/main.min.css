@@ -80,3 +80,8 @@ mark gambardella, use with credit or whatver */
     min-height: 85px;
     max-height: 90px;
 }
+
+.legible {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
