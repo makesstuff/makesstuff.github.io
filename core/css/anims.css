@@ -118,7 +118,7 @@
     -ms-animation-fill-mode: forwards;
     /*IE 10+*/
     
-    margin-top: 500px;
+    margin-top: 50%;
 }
 
 @keyframes biganims {
