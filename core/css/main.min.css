@@ -40,6 +40,10 @@ mark gambardella, use with credit or whatver */
     background-image: url(../img/mainbg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .boring {
