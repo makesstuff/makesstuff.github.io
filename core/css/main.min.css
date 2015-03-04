@@ -15,6 +15,9 @@ mark gambardella, use with credit or whatver */
     text-align: right;
 }
 
+.hidden {
+    display: none;
+}
 .scaffold {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
