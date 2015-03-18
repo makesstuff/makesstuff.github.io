@@ -11,13 +11,13 @@ mark gambardella, use with credit or whatver */
     color: white;
     position: fixed;
     margin-top: 350px;
-    margin-left: 350px;
     text-align: right;
 }
 
 .hidden {
     display: none;
 }
+
 .scaffold {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
@@ -43,7 +43,7 @@ mark gambardella, use with credit or whatver */
     background-image: url(../img/mainbg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-     -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
